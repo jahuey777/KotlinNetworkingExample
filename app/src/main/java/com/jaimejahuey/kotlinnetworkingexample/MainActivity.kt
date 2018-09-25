@@ -12,7 +12,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject lateinit var viewModelFactory: ViewModelFactory
-//    lateinit var viewModel: MainActivityVM
+    lateinit var viewModel: MainActivityVM
 
 //     @Inject var viewModelFactory: ViewModelFactory? = null
 //    lateinit var binding: ActivityMainBinding
@@ -22,8 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
         (application as AppApplication).appComponent.inject(this)
-//        viewModel = ViewModelProviders.of(this, viewModelFactory).get(MainActivityVM::class.java)
-
+        viewModel = ViewModelProviders.of(this, viewModelFactory).get(MainActivityVM::class.java)
     }
 
 }
