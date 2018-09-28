@@ -1,8 +1,10 @@
-package com.jaimejahuey.kotlinnetworkingexample.di
+package com.jaimejahuey.kotlinnetworkingexample.di.module
 
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
-import com.jaimejahuey.kotlinnetworkingexample.MainActivityVM
+import com.jaimejahuey.kotlinnetworkingexample.application.MainActivityVM
+import com.jaimejahuey.kotlinnetworkingexample.di.viewmodelfactory.ViewModelFactory
+import com.jaimejahuey.kotlinnetworkingexample.di.viewmodelfactory.ViewModelKey
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

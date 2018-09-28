@@ -1,14 +1,9 @@
-package com.jaimejahuey.kotlinnetworkingexample
+package com.jaimejahuey.kotlinnetworkingexample.application
 
-import android.app.Activity
 import android.app.Application
 import com.jaimejahuey.kotlinnetworkingexample.di.AppComponent
-import com.jaimejahuey.kotlinnetworkingexample.di.AppModule
+import com.jaimejahuey.kotlinnetworkingexample.di.module.AppModule
 import com.jaimejahuey.kotlinnetworkingexample.di.DaggerAppComponent
-import dagger.android.AndroidInjector
-import dagger.android.DispatchingAndroidInjector
-import dagger.android.HasActivityInjector
-import javax.inject.Inject
 
 class AppApplication: Application(){
 

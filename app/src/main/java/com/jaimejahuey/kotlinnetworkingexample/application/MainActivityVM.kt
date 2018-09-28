@@ -1,4 +1,4 @@
-package com.jaimejahuey.kotlinnetworkingexample
+package com.jaimejahuey.kotlinnetworkingexample.application
 
 import android.app.Application
 import android.arch.lifecycle.ViewModel

@@ -1,10 +1,11 @@
-package com.jaimejahuey.kotlinnetworkingexample
+package com.jaimejahuey.kotlinnetworkingexample.application
 
 //import android.databinding.DataBindingUtil
 import android.arch.lifecycle.ViewModelProviders
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.jaimejahuey.kotlinnetworkingexample.di.ViewModelFactory
+import com.jaimejahuey.kotlinnetworkingexample.R
+import com.jaimejahuey.kotlinnetworkingexample.di.viewmodelfactory.ViewModelFactory
 import javax.inject.Inject
 
 //import com.jaimejahuey.kotlinnetworkingexample.databinding.ActivityMainBinding

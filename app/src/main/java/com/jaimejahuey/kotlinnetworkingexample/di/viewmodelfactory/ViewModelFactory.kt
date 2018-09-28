@@ -1,8 +1,7 @@
-package com.jaimejahuey.kotlinnetworkingexample.di
+package com.jaimejahuey.kotlinnetworkingexample.di.viewmodelfactory
 
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
-import android.util.Log
 import java.lang.IllegalArgumentException
 import javax.inject.Inject
 import javax.inject.Provider

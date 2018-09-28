@@ -1,4 +1,4 @@
-package com.jaimejahuey.kotlinnetworkingexample.di
+package com.jaimejahuey.kotlinnetworkingexample.di.module
 
 import android.app.Application
 import dagger.Module

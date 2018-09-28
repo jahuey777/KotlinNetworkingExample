@@ -1,4 +1,4 @@
-package com.jaimejahuey.kotlinnetworkingexample
+package com.jaimejahuey.kotlinnetworkingexample.repository
 
 import io.realm.Realm
 

@@ -1,4 +1,4 @@
-package com.jaimejahuey.kotlinnetworkingexample.di
+package com.jaimejahuey.kotlinnetworkingexample.di.viewmodelfactory
 
 import android.arch.lifecycle.ViewModel
 import dagger.MapKey
